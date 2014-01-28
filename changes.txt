@@ -1,0 +1,17 @@
+Version history:
+
+(2013/12/23) Limit the height of spoiler blocks while hidden
+(2013/10/02) Fixed preview of new thread
+(2013/09/16) Updated for donation drive
+(2013/08/24) Just in case you find a plain blockquote, toned down text selection colors
+(2013/08/05) Perfectly normal textarea styles
+(2013/07/30) Improve featured articles list on the front page using flexbox layout
+(2013/07/26) Fixed spoiler tags in Chrome
+(2013/07/13) Fixed white footer
+(2013/06/27) Fixed tag editing
+(2013/06/24) Fixed links in spoiler blocks, improved cursor contrast with textarea
+(2013/05/31) Fixed "printer friendly" article view
+(2013/05/30) Fewer images, more pure CSS 
+(2013/05/29) Status messages fixed
+(2013/05/28) Tweaks
+(2013/05/27) First release

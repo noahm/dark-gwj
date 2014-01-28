@@ -1,0 +1,244 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("http://www.gamerswithjobs.com/print/") {
+body {
+    background-color: #363636 !important;
+}
+}
+
+@-moz-document domain("www.gamerswithjobs.com") {
+::selection {
+    background-color: #999;
+    color: #fff;
+}
+::-moz-selection {
+    background-color: #999;
+    color: #fff;
+}
+
+body {
+    color: #DDD !important;
+}
+
+a {
+    color: #D16855 !important;
+}
+
+.messages {
+    background-color: #444 !important;
+}
+
+.status {
+    color: #88dd88 !important;
+}
+
+.error {
+    color: #dd8888 !important;
+}
+
+#sidebar-left {
+    color: #333;
+}
+
+#block-gwjmod-gwjmod_active_topics .item-list {
+    color: #666;
+}
+
+.gwj-feature-node .more-link a {
+    background-color: #444 !important;
+}
+
+#block-gwjmod-gwjmod_active_topics .tags-link, #block-gwjmod-gwjmod_active_topics_front .tags-link {
+    border-top-color: #666 !important;
+}
+
+div#main, #page {
+    background-color: #363636 !important;
+}
+
+.profile dl {
+    background-color: #222 !important;
+}
+
+.profile dt:first-child {
+    margin-top: 0 !important;
+}
+
+thead th {
+    background-color: #333F3D !important;
+}
+
+tr {
+    border-bottom-color: #222 !important; /* doesn't work for some reason */
+}
+
+tr.odd, tr.even {
+    background-color: #363636 !important;
+}
+
+tr.even {
+    background-color: #2c2c2c !important;
+}
+
+.node.ntype-forum {
+    background-color: #363636 !important;
+}
+.comment.even {
+    background-color: #2a2a2a !important;
+}
+.comment.odd {
+    background-color: #2e2e2e !important;
+}
+
+.node div.links {
+    background-color: transparent !important;
+    border-top-color: transparent !important;
+    height: 20px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAcCAYAAAC+lOV/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAACdJREFUOE9jGAWjYBRgAWfOnPlPLoYaMQqGAPj//z/ZeBTQDzAwAAAZDV+hvasllgAAAABJRU5ErkJggg==) !important;
+}
+
+.node div.links ul.links {
+    background-image: none !important;
+    height: 20px !important;
+}
+
+.node div.links ul.links li {
+    background-color: #363636 !important;
+    height: 100% !important;
+    border-radius: 8px;
+}
+
+.node div.links ul.links li.first {
+    border-left: 3px solid #888;
+    border-radius: 8px;
+    background-color: #363636;
+    padding-left: 1em !important;
+}
+
+.node div.links ul.links li.last {
+    border-right: 3px solid #888;
+    background-image: none !important;
+}
+
+.pager, .pager-inner, .pager-wrapper, .meta-wrapper, .meta-inner-1, .meta-inner-2, .meta-inner-3 {
+    background-image: none !important;
+}
+
+.pager-wrapper {
+    border: 1px solid #666 !important;
+    border-width: 1px 1px 5px !important;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    height: 43px !important;
+}
+
+.meta-wrapper {
+    background-color: #2a2a2a !important;
+    border: 1px solid #6aa !important;
+    border-width: 1px 1px 5px !important;
+    border-radius: 5px;
+}
+
+div.tag-widget ul.inline-tags li:hover, div.tag-widget ul.inline-tags li.hover {
+    background-color: #422 !important;
+}
+
+ul.primary {
+    border-bottom-color: #777 !important;
+}
+
+ul.primary li.active a {
+    background-color: #363636 !important;
+    color: inherit !important;
+    border-color: #777 #777 #363636 !important;
+}
+
+ul.primary li a {
+    background-color: #242424 !important;
+    border-color: #777 !important;
+}
+
+ul.primary li a:hover {
+    background-color: rgb(37, 37, 37) !important;
+}
+
+blockquote {
+    background-color: #383838 !important;
+    border-color: #888 !important;
+}
+
+.bb-spoiler blockquote, .bb-spoiler blockquote a {
+    color: #383838 !important;
+    background-color: #383838 !important;
+}
+
+.bb-spoiler blockquote {
+    max-height: 25em;
+    overflow: hidden;
+}
+
+/* fix images in spoiler tags while I'm in here */
+.bb-spoiler blockquote img {
+    opacity: 0;
+}
+
+textarea {
+    -moz-appearance: none;
+    background: transparent;
+    border-style: solid;
+    border-color: #666;
+    color: #DDD;
+}
+
+.grippie {
+    background-color: #777 !important;
+    border-color: #777 !important;
+}
+
+.marker, .form-required {
+    color: #f34 !important;
+}
+
+/* playing with flex box for the featured articles on the front page */
+.gwj-feature-node-inner {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.gwj-feature-node div, .gwj-feature-node h2 {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.gwj-feature-node .content {
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+    position: relative;
+}
+.gwj-feature-node .content::after { /* Fade out overflowing text at the bottom */
+    content: "";
+    height: 10px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    background-image: linear-gradient(to bottom, rgba(54,54,54,0), #363636 8px);
+}
+.gwj-feature-node .more-link {
+    position: static !important;
+}
+.donation-banner, .donation-features-block-inner {
+    background-image: linear-gradient(to bottom, hsl(168, 35%, 25%) 3%, hsl(168, 15%, 18%) 95%) !important;
+}
+.donation-block, .donation-additional {
+    background-color: rgb(40, 40, 40) !important;
+}
+.donation-amount {
+    color: #DDD !important;
+}
+
+.preview .node {
+    background-color: transparent !important;
+}
+}
