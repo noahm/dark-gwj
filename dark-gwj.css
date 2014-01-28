@@ -167,7 +167,7 @@ blockquote {
     border-color: #888 !important;
 }
 
-.bb-spoiler blockquote, .bb-spoiler blockquote a {
+.bb-spoiler blockquote, .bb-spoiler .bb-quote-body, .bb-spoiler blockquote a {
     color: #383838 !important;
     background-color: #383838 !important;
 }

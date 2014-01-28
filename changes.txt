@@ -1,5 +1,6 @@
 Version history:
 
+(2014/01/28) Fix rare cases of spoiler tags being white
 (2013/12/23) Limit the height of spoiler blocks while hidden
 (2013/10/02) Fixed preview of new thread
 (2013/09/16) Updated for donation drive
@@ -11,7 +12,7 @@ Version history:
 (2013/06/27) Fixed tag editing
 (2013/06/24) Fixed links in spoiler blocks, improved cursor contrast with textarea
 (2013/05/31) Fixed "printer friendly" article view
-(2013/05/30) Fewer images, more pure CSS 
+(2013/05/30) Fewer images, more pure CSS
 (2013/05/29) Status messages fixed
 (2013/05/28) Tweaks
 (2013/05/27) First release
