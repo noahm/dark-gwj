@@ -17,16 +17,37 @@ body {
 }
 
 body {
-    color: #DDD !important;
+    color: #ddd !important;
 }
 
 a {
     color: #D16855 !important;
 }
 
-a[href^='/node/add/forum'], #navigation {
+a[href^='/node/add/forum'], #navigation, #sidebar-left a[href^='http://www.gog.com'], div#amzn_assoc_ad_div_adunit_0 {
     -webkit-filter: invert(100%) hue-rotate(180deg) contrast(57%) saturate(200%);
     filter: invert(100%) hue-rotate(180deg) contrast(57%) saturate(200%);
+}
+
+#sidebar-left .block {
+    background-image: none;
+    background-color: #303030;
+    border-radius: 8px;
+    border: 0 solid #666;
+    border-top-width: 3px;
+    border-bottom-width: 5px;
+    margin-bottom: 0.75em !important;
+}
+#sidebar-left .blockinner-wrapper {
+    background-image: none !important;
+    padding-bottom: 0;
+}
+#sidebar-left .block-google_cse {
+    background-color: #333F3D;
+    border-color: #366;
+}
+form#google-cse-searchbox-form input {
+    filter: invert(100%) hue-rotate(180deg) contrast(69%);
 }
 
 .messages {
@@ -39,10 +60,6 @@ a[href^='/node/add/forum'], #navigation {
 
 .error {
     color: #dd8888 !important;
-}
-
-#sidebar-left {
-    color: #333;
 }
 
 #block-gwjmod-gwjmod_active_topics .item-list {
@@ -73,8 +90,8 @@ thead th {
     background-color: #333F3D !important;
 }
 
-tr {
-    border-bottom-color: #222 !important; /* doesn't work for some reason */
+tr, td {
+    border-color: #666 !important;
 }
 
 tr.odd, tr.even {
@@ -204,7 +221,34 @@ textarea {
     color: #f34 !important;
 }
 
-/* playing with flex box for the featured articles on the front page */
+/* use flex box for laying out featured articles on the front page */
+@media screen and (min-width: 1020px) {
+    #gwj-features {
+        display: -webkit-flex;
+        display: flex;
+        width: auto;
+    }
+    /* Free the Width by Liquidmantis: http://userstyles.org/styles/39933/gwj-free-the-width */
+    #navigation {
+        margin-left:250px !important;
+        margin-right:50px !important;
+        min-width:600px !important;
+        width:auto !important;
+    }
+    #page {
+        margin: 0 10px !important;
+        min-width:950px !important;
+        width:auto !important;
+    }
+}
+.gwj-feature-node {
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+#gwj-feature-node-0 {
+    -webkit-flex: 2 0 auto;
+    flex: 2 0 auto;
+}
 .gwj-feature-node-inner {
     display: -webkit-inline-flex;
     display: inline-flex;
@@ -233,6 +277,8 @@ textarea {
 .gwj-feature-node .more-link {
     position: static !important;
 }
+
+/* Donation drive styles */
 .donation-banner, .donation-features-block-inner {
     background-image: linear-gradient(to bottom, hsl(168, 35%, 25%) 3%, hsl(168, 15%, 18%) 95%) !important;
 }
