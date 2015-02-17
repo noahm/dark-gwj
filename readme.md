@@ -1,5 +1,17 @@
-Version history:
+Dark GWJ
+--------
 
+A Dark theme and enhancements for gamerswithjobs.com
+
+* Fluid full-width layout for the front page and articles!
+* Hides images in spoiler tags!
+* Reduces eye strain by using dark backgrounds!
+* And much more!
+
+Version history
+===============
+
+(2015/02/17) Add fancy CSS filters to darken the image-based header links and new-thread button
 (2014/01/28) Fix rare cases of spoiler tags being white
 (2013/12/23) Limit the height of spoiler blocks while hidden
 (2013/10/02) Fixed preview of new thread
