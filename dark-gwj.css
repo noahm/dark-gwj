@@ -24,6 +24,11 @@ a {
     color: #D16855 !important;
 }
 
+a[href^='/node/add/forum'], #navigation {
+    -webkit-filter: invert(100%) hue-rotate(180deg) contrast(57%) saturate(200%);
+    filter: invert(100%) hue-rotate(180deg) contrast(57%) saturate(200%);
+}
+
 .messages {
     background-color: #444 !important;
 }
