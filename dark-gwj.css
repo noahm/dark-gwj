@@ -1,295 +1,52 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url-prefix("http://www.gamerswithjobs.com/print/") {
-body {
-    background-color: #363636 !important;
-}
-}
-
 @-moz-document domain("www.gamerswithjobs.com") {
-::selection {
-    background-color: #999;
-    color: #fff;
-}
-::-moz-selection {
-    background-color: #999;
-    color: #fff;
-}
+  body {
+    background-color: #424242;
+  }
 
-body {
-    color: #ddd !important;
-}
+  /* Text Color */
+  body, #header a, li a.active {
+    color: #eee;
+  }
 
-a {
-    color: #D16855 !important;
-}
+  body.node-type-article .node .content .content-second-inner,
+  body.node-type-podcast .node .content .content-second-inner {
+    background-color: rgba(255, 255, 255, 0.1)
+  }
 
-a[href^='/node/add/forum'], #navigation, #sidebar-left a[href^='http://www.gog.com'], div#amzn_assoc_ad_div_adunit_0 {
-    -webkit-filter: invert(100%) hue-rotate(180deg) contrast(57%) saturate(200%);
-    filter: invert(100%) hue-rotate(180deg) contrast(57%) saturate(200%);
-}
+  .fieldset-node-forum {
+    background-color: transparent;
+  }
 
-#sidebar-left .block {
-    background-image: none;
+  #header .region-header .wc-header-block {
+    background-color: rgba(48, 48, 48, 0.9);
+  }
+
+  #page, table thead, table tr.odd,
+  body.node-type-article .node .article-comments .forum-post.odd,
+  body.node-type-podcast .node .article-comments .forum-post.odd {
     background-color: #303030;
-    border-radius: 8px;
-    border: 0 solid #666;
-    border-top-width: 3px;
-    border-bottom-width: 5px;
-    margin-bottom: 0.75em !important;
-}
-#sidebar-left .blockinner-wrapper {
-    background-image: none !important;
-    padding-bottom: 0;
-}
-#sidebar-left .block-google_cse {
-    background-color: #333F3D;
-    border-color: #366;
-}
-form#google-cse-searchbox-form input {
-    filter: invert(100%) hue-rotate(180deg) contrast(69%);
-}
+  }
 
-.messages {
-    background-color: #444 !important;
-}
+  .forum-post.even, .forum-post.node-forum, table tr.even,
+  body.node-type-article .node .article-comments .forum-post.even,
+  body.node-type-podcast .node .article-comments .forum-post.even{
+    background-color: #272727;
+  }
 
-.status {
-    color: #88dd88 !important;
-}
+  table tr.even, table tr.odd {
+    border-bottom-width: 0;
+  }
 
-.error {
-    color: #dd8888 !important;
-}
+  .quote blockquote {
+    background-color: #404040;
+    border-color: #545454;
+  }
 
-#block-gwjmod-gwjmod_active_topics .item-list {
-    color: #666;
-}
-
-.gwj-feature-node .more-link a {
-    background-color: #444 !important;
-}
-
-#block-gwjmod-gwjmod_active_topics .tags-link, #block-gwjmod-gwjmod_active_topics_front .tags-link {
-    border-top-color: #666 !important;
-}
-
-div#main, #page {
-    background-color: #363636 !important;
-}
-
-.profile dl {
-    background-color: #222 !important;
-}
-
-.profile dt:first-child {
-    margin-top: 0 !important;
-}
-
-thead th {
-    background-color: #333F3D !important;
-}
-
-tr, td {
-    border-color: #666 !important;
-}
-
-tr.odd, tr.even {
-    background-color: #363636 !important;
-}
-
-tr.even {
-    background-color: #2c2c2c !important;
-}
-
-.node.ntype-forum {
-    background-color: #363636 !important;
-}
-.comment.even {
-    background-color: #2a2a2a !important;
-}
-.comment.odd {
-    background-color: #2e2e2e !important;
-}
-
-.node div.links {
-    background-color: transparent !important;
-    border-top-color: transparent !important;
-    height: 20px;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAcCAYAAAC+lOV/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAACdJREFUOE9jGAWjYBRgAWfOnPlPLoYaMQqGAPj//z/ZeBTQDzAwAAAZDV+hvasllgAAAABJRU5ErkJggg==) !important;
-}
-
-.node div.links ul.links {
-    background-image: none !important;
-    height: 20px !important;
-}
-
-.node div.links ul.links li {
-    background-color: #363636 !important;
-    height: 100% !important;
-    border-radius: 8px;
-}
-
-.node div.links ul.links li.first {
-    border-left: 3px solid #888;
-    border-radius: 8px;
-    background-color: #363636;
-    padding-left: 1em !important;
-}
-
-.node div.links ul.links li.last {
-    border-right: 3px solid #888;
-    background-image: none !important;
-}
-
-.pager, .pager-inner, .pager-wrapper, .meta-wrapper, .meta-inner-1, .meta-inner-2, .meta-inner-3 {
-    background-image: none !important;
-}
-
-.pager-wrapper {
-    border: 1px solid #666 !important;
-    border-width: 1px 1px 5px !important;
-    border-radius: 5px;
-    margin-bottom: 1.5em;
-    height: 43px !important;
-}
-
-.meta-wrapper {
-    background-color: #2a2a2a !important;
-    border: 1px solid #6aa !important;
-    border-width: 1px 1px 5px !important;
-    border-radius: 5px;
-}
-
-div.tag-widget ul.inline-tags li:hover, div.tag-widget ul.inline-tags li.hover {
-    background-color: #422 !important;
-}
-
-ul.primary {
-    border-bottom-color: #777 !important;
-}
-
-ul.primary li.active a {
-    background-color: #363636 !important;
-    color: inherit !important;
-    border-color: #777 #777 #363636 !important;
-}
-
-ul.primary li a {
-    background-color: #242424 !important;
-    border-color: #777 !important;
-}
-
-ul.primary li a:hover {
-    background-color: rgb(37, 37, 37) !important;
-}
-
-blockquote {
-    background-color: #383838 !important;
-    border-color: #888 !important;
-}
-
-.bb-spoiler blockquote, .bb-spoiler .bb-quote-body, .bb-spoiler blockquote a {
-    color: #383838 !important;
-    background-color: #383838 !important;
-}
-
-.bb-spoiler blockquote {
-    max-height: 25em;
-    overflow: hidden;
-}
-
-/* fix images in spoiler tags while I'm in here */
-.bb-spoiler blockquote img {
-    opacity: 0;
-}
-
-textarea {
-    -moz-appearance: none;
-    background: transparent;
-    border-style: solid;
-    border-color: #666;
-    color: #DDD;
-}
-
-.grippie {
-    background-color: #777 !important;
-    border-color: #777 !important;
-}
-
-.marker, .form-required {
-    color: #f34 !important;
-}
-
-/* use flex box for laying out featured articles on the front page */
-@media screen and (min-width: 1020px) {
-    #gwj-features {
-        display: -webkit-flex;
-        display: flex;
-        width: auto;
-    }
-    /* Free the Width by Liquidmantis: http://userstyles.org/styles/39933/gwj-free-the-width */
-    #navigation {
-        margin-left:250px !important;
-        margin-right:50px !important;
-        min-width:600px !important;
-        width:auto !important;
-    }
-    #page {
-        margin: 0 10px !important;
-        min-width:950px !important;
-        width:auto !important;
-    }
-}
-.gwj-feature-node {
-    -webkit-flex: 1 0 auto;
-    flex: 1 0 auto;
-}
-#gwj-feature-node-0 {
-    -webkit-flex: 2 0 auto;
-    flex: 2 0 auto;
-}
-.gwj-feature-node-inner {
-    display: -webkit-inline-flex;
-    display: inline-flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-}
-.gwj-feature-node div, .gwj-feature-node h2 {
-    -webkit-flex: 0 0 auto;
-    flex: 0 0 auto;
-}
-.gwj-feature-node .content {
-    -webkit-flex: 1 1 auto;
-    flex: 1 1 auto;
-    overflow: hidden;
-    position: relative;
-}
-.gwj-feature-node .content::after { /* Fade out overflowing text at the bottom */
-    content: "";
-    height: 10px;
-    width: 100%;
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    background-image: linear-gradient(to bottom, rgba(54,54,54,0), #363636 8px);
-}
-.gwj-feature-node .more-link {
-    position: static !important;
-}
-
-/* Donation drive styles */
-.donation-banner, .donation-features-block-inner {
-    background-image: linear-gradient(to bottom, hsl(168, 35%, 25%) 3%, hsl(168, 15%, 18%) 95%) !important;
-}
-.donation-block, .donation-additional {
-    background-color: rgb(40, 40, 40) !important;
-}
-.donation-amount {
-    color: #DDD !important;
-}
-
-.preview .node {
-    background-color: transparent !important;
-}
+  textarea, .text-format-wrapper .markItUpEditor {
+    resize: vertical;
+    background-color: #373737;
+    color: #eee;
+  }
 }
