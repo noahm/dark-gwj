@@ -44,7 +44,15 @@
     border-color: #545454;
   }
 
-  textarea, .text-format-wrapper .markItUpEditor {
+  input.form-text,
+  input.form-autocomplete,
+  input.form-file,
+  textarea.form-textarea,{}
+  .text-format-wrapper .markItUpEditor,
+  input.form-autocomplete:focus,
+  input.form-text:focus,
+  input.form-file:focus,
+  textarea.form-textarea:focus {
     resize: vertical;
     background-color: #373737;
     color: #eee;
