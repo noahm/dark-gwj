@@ -1,0 +1,13 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.gamerswithjobs.com") {
+  #page {
+    width: initial;
+    margin: 0 2em;
+  }
+
+  .main-content-header-wrapper {
+    max-width: 1001px;
+    margin: 0 auto;
+  }
+}
