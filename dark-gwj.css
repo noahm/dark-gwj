@@ -23,7 +23,7 @@
     background-color: rgba(48, 48, 48, 0.9);
   }
 
-  #page, table thead, table tr.odd,
+  #page, table thead, table tr.odd, .comment-preview,
   body.node-type-article .node .article-comments .forum-post.odd,
   body.node-type-podcast .node .article-comments .forum-post.odd {
     background-color: #303030;
@@ -47,7 +47,7 @@
   input.form-text,
   input.form-autocomplete,
   input.form-file,
-  textarea.form-textarea,{}
+  textarea.form-textarea,
   .text-format-wrapper .markItUpEditor,
   input.form-autocomplete:focus,
   input.form-text:focus,
