@@ -57,4 +57,17 @@
     background-color: #373737;
     color: #eee;
   }
+
+  /* Nicer looking spoiler blocks */
+  .quote.spoiler {
+    height: auto;
+  }
+  .quote.spoiler blockquote {
+    height: 0;
+    padding-bottom: 0;
+  }
+  .quote.spoiler-shown blockquote {
+    height: initial;
+    padding: 1em;
+  }
 }

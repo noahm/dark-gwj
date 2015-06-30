@@ -16,6 +16,7 @@ Installation
 Version history
 ---------------
 
+- 2015/06/30 - Nicer styles for spoiler blocks
 - 2015/06/19 - Update for new site design
 - 2015/02/17 - Add fancy CSS filters to darken the header links and new-thread button, fully re-skinned sidebar
 - 2014/01/28 - Fix rare cases of spoiler tags being white
